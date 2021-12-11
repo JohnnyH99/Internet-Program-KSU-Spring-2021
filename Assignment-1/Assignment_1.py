@@ -1,0 +1,7 @@
+print('Hello World!')
+print('Hello CS 4720!')
+print('My name is Johnny Huynh.')
+print('I am a senior and currently majoring in Computer Science')
+print('while a minor in Game Design.')
+print('I actually have not touched Python before,')
+print('so its going to be a learning experience for me.')

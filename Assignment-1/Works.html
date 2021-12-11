@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Works</h1>
+</div>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="AboutMe.html">About Me</a></li>
+  <li><a href="Works.html">Works</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+</ul>
+
+
+<div class="header2">
+  <h1>Welcome to the Works Tab</h1>
+  <p style="font-size:160%;">The following page would display works I've done outside of class</p>
+  <p style="font-size:160%;">I'll be adding more later in the future so stay tune for what's to come <br> such as sprite work and games as well as other items!</p>
+</div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Game Jam 1</h2>
+        <p class="title">Game Jam 1</p>
+		<p>Here's a link to my group's game made back in Fall 2019 that can be downloaded and played:
+		<a href="https://bitglitch.itch.io/aztech"> Aztech.</a> I mainly was held responsibly in creating sprites for the UI and the enviroment as well making animated enemies.
+		The trailer can be found in About Me done by one of my teammates.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Game Jam 2</h2>
+        <p class="title">Game Jam 2</p>
+		<p>Here's a link to my group's game made back in February 2020 that can be downloaded and played:
+		<a href="https://bitglitch.itch.io/state-of-repair"> State of Repair.</a> I mainly was held responsibly in creating sprites for the UI and the enviroment.
+		I also did create the trailer for our game that can be found in the About Me Tab.</p>
+      </div>
+    </div>
+  </div>
+  
+  
